@@ -11,10 +11,7 @@ def punctuation_marks_split(word):
     if word.isdigit():
         return word
     if length == 1:
-        #if not(punctuation_marks.__contains__(word[0])):
             return word
-       # else:
-       #     return ''
     if punctuation_marks.__contains__(word[length - 1]):
         pos = length - 1
         if pos == 1:
